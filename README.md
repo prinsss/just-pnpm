@@ -20,7 +20,7 @@ If someone executes package installation commands other than pnpm (`npm install`
 {
   "name": "your-project",
   "devDependencies": {
-    "just-pnpm": "^0.0.1"
+    "just-pnpm": "^1.0.1"
   }
 }
 ```
@@ -30,6 +30,12 @@ For library developers, adding `just-pnpm` to your package's `dependencies` will
 ## Escape Hatches
 
 Set environment variable `JUST_PNPM_SKIP_CHECK=true` to disable the check temporarily.
+
+## Disclaimer
+
+This package relies on [NPM lifecycle hooks](https://docs.npmjs.com/cli/v10/using-npm/scripts#npm-install) to work properly.
+
+Although it's tested that the package works on many of popular package managers, a non-standard implementation or misbehavior could possibly break the functionality of package manager restriction.
 
 ## License
 
