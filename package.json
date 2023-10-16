@@ -1,0 +1,21 @@
+{
+  "name": "just-pnpm",
+  "version": "1.0.0",
+  "description": "Force the pnpm package manager to be used on a project.",
+  "main": "index.js",
+  "bin": "index.js",
+  "author": "prin <hi@prin.studio>",
+  "license": "MIT",
+  "homepage": "https://github.com/prinsss/just-pnpm",
+  "bugs": "https://github.com/prinsss/just-pnpm/issues",
+  "scripts": {
+    "preinstall": "node ./index.js",
+    "postinstall": "node ./index.js"
+  },
+  "files": [
+    "package.json",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
