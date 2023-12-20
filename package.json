@@ -1,6 +1,6 @@
 {
   "name": "just-pnpm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Force the pnpm package manager to be used on a project.",
   "main": "index.js",
   "bin": "index.js",

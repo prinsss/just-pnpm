@@ -41,8 +41,8 @@ if (usedPM && usedPM.name !== wantedPM && !shouldSkip) {
   console.log(
     `Use "pnpm install" for installation in this project.
 
-If you don't have pnpm, install it via "npm i -g pnpm".
-For more details, go to https://pnpm.js.org/`
+If you don't have pnpm, go to https://pnpm.io/installation
+and find installation method that suits your environment.`
   );
   process.exit(1);
 }
